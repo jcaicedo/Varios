@@ -1,0 +1,32 @@
+ #moodular {
+	overflow: hidden;
+}
+#moodular, #moodular li {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	width: 100%;
+}
+.elements {
+    background-color: #fff;
+    padding: 20px 25px;
+    margin-bottom: 20px;
+    box-shadow: 1px 1px 10px #ddd;
+    color: #111;
+    text-align: left;
+}
+
+#moodular {
+    overflow: hidden;
+    
+}
+
+#moodular, #moodular li{
+
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    width: 100%;
+
+}
+

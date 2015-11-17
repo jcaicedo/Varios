@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Ejemplo de menus tab</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/tabjs.css">
+</head>
+<body>
+    
+<div class="container">
+    
+<!--    Menu usando la clase tab-->
+    
+    <h2>Dynamic Tabs with JQuery</h2>
+    <p>Click on the Tabs to display the active and previous tab.</p>
+    <ul class="nav nav-tabs">
+        <li class="activate"><a href="#home">Home</a></li>
+        <li><a href="#menu1">Menú 1</a></li>
+        <li><a href="#menu2">Menú 2</a></li>
+        <li><a href="#menu3">Menú 3</a></li>
+    </ul>
+    
+    <div class="tab-content">
+        <div id="home" class="tab-pane fade in active">
+            
+            <h3>HOME</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae reiciendis possimus facilis consequuntur commodi, velit veniam facere officiis maxime magnam assumenda numquam itaque magni debitis.</p>
+        </div>
+        
+        <div id="menu1" class="tab-pane fade">
+            <h3>Menu 1</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit enim pariatur, dolores iure ea consectetur vitae tempore, quia, voluptate esse laboriosam optio quasi nihil molestiae.</p>
+            
+        </div>
+        <div id="menu2" class="tab-pane fade">
+            <h3>Menu 2</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam adipisci iusto quis ullam maiores illum asperiores, cum voluptas, sunt exercitationem iste quaerat sint. Quaerat, repudiandae?</p>
+            
+        </div>
+        
+        <div id="menu3" class="tab-pane fade">
+            <h3>Menu 3</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus autem, amet consequatur recusandae quo impedit reprehenderit tempora. Rem quasi inventore est suscipit! Soluta, doloremque, numquam?</p>
+            
+        </div>
+        
+        
+    </div>
+    
+   <hr>
+   <p class="act"><b>Active Tab</b>: <span></span></p>
+   <p class="prev"><b>Previous Tab</b>: <span></span></p>
+    
+    
+    
+</div>
+    
+        <!--    Code Script-->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script src="js/tabjs.js"></script>
+    
+</body>
+</html>

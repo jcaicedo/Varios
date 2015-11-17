@@ -1,0 +1,146 @@
+
+.menu, 
+.submenu {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.menu:after,
+.menu:before {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.menu li {
+  float: left;
+}
+
+.menu.menu-justified li {
+  float: none;
+  display: table-cell;
+  width: 1%;
+}
+
+.menu a {
+  display: inline-block;
+  padding: 0.6em 1.2em;
+  text-decoration: none;
+  font-size: 1em;
+  transition: all 300ms ease;
+}
+
+.menu.menu-bar {
+  background-color: #61cc58;
+  border-radius: 0.4em;
+}
+
+.menu.menu-bar li {
+  position: relative;
+}
+
+.menu.menu-bar a {
+  color: white;
+  text-shadow: 0 -1px 0 #489342;
+  border-left: 1px solid #489342;
+  border-right: 1px solid #73f268;
+}
+
+.menu.menu-bar a:hover {
+  background-color: rgba(255, 255, 255, 0.15);
+}
+
+.menu.menu-bar li:first-child a {
+  border-left: 0px solid transparent;
+}
+
+.menu.menu-bar li:last-child a {
+  border-right: 0px solid transparent;
+}
+
+.menu.menu-bar .submenu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #4581d1;
+  width: 220px;
+}
+
+.menu.menu-bar .submenu li {
+  float: none;
+}
+
+.menu.menu-bar .submenu a {
+  display: block;
+  border-left: 0 solid transparent;
+  border-right: 0 solid transparent;
+  border-top: 1px solid #366cb2;
+  border-bottom: 1px solid #4e98fc;
+}
+
+.menu.menu-bar .submenu li:first-child a {
+  border-top: 0 solid transparent;
+}
+
+.menu.menu-bar .submenu li:last-child a {
+  border-bottom: 0 solid transparent;
+}
+
+.menu.menu-bar .submenu .submenu {
+  left: 100%;
+  top: 0;
+}
+
+.menu.menu-bar .submenu {
+  display: none;
+}
+
+.menu.menu-bar li:hover > .submenu {
+  display: block;
+}
+
+.menu.menu-tabs {
+  border-bottom: 1px solid #e3c39a;
+}
+
+.menu.menu-tabs a {
+  background-color: #f8e4cb;
+  color: #db6666;
+  border-radius: 0.4em 0.4em 0 0;
+  box-shadow: 0 -1px 1px 0 #e3c39a;
+  margin: 0 0.1em;
+}
+
+.menu.menu-tabs li.active a {
+  background-color: #e0c7a2;
+  color: white;
+}
+
+.menu.menu-tabs a:hover {
+  background-color: #ccc7b2;
+  color: white;
+}
+
+.menu.menu-pills a {
+  background-color: #02a5a5;
+  color: white;
+  padding: 0.6em 1em;
+  margin: 0 0.4em;
+  border-radius: 0.4em;
+}
+
+.menu.menu-pills a:hover {
+  background-color: #0cbaba;
+}
+
+.menu.menu-pills li.active a  {
+  background-color: #34d3d3;
+}
+
+
+
+
+
+
+

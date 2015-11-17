@@ -1,0 +1,94 @@
+/*
+Definicion basica de una regla css
+
+selector {
+propiedad: valor;
+propiedad2: valor;
+
+}
+
+*/
+
+body {
+  padding: 0;
+  margin: 0;
+background-image: url(../img/preview.jpg);
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: cover;
+}
+
+h2{
+    font-style: oblique;
+    color:#ffffff;
+    text-align: right;
+    background-color: #48c4d4;
+    padding: 10px;
+    margin: 10px;
+        
+}
+
+h1{
+    color: #2d319f;
+}
+
+.tex-titulo{
+text-align: center;
+font-style:oblique
+}
+
+h3{
+    color: #ffffff;
+    font-style: oblique;
+    margin: 40px;
+    background-color: #1a7b98;
+    padding: 10px;
+    
+}
+
+header{
+background-image: url(../img/bg-1.jpg);
+background-repeat: no-repeat;
+background-position: center top;
+ background-size: cover;
+}
+
+.container {
+    background-image:url(../img/bg1.jpg);
+  max-width: 940px;
+  padding: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.container-video{
+text-align: center;
+padding: 10px;
+margin: 10px;
+    
+}
+
+.container-2{
+background-color: darkgray;
+margin: 10px;
+padding: 10px;
+
+}
+
+.texto-verde{
+color: #22b449;
+}
+
+#archive{
+ color: #ffffff;
+    font-style: oblique;
+    margin: 40px;
+    background-color: #1a7b98;
+    padding: 10px;
+}
+
+#encabezado{
+background-color: #bc7b19;
+text-align: center
+    
+}

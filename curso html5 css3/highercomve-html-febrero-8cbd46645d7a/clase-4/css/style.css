@@ -1,0 +1,142 @@
+body {
+  font-size: 14px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 940px;
+  padding: 0 1em;
+  margin: 0 auto;
+}
+
+.row:before,
+.row:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.row .row {
+  margin-left: -1em;
+  margin-right: -1em;
+}
+
+.colum {
+  float: left;
+  box-sizing: border-box;
+  padding: 0 1em;
+}
+
+.colum.colum-1  { width: 8.3333%; }
+.colum.colum-2  { width: 16.6666%; }
+.colum.colum-3  { width: 25%; }
+.colum.colum-4  { width: 33.3333%; }
+.colum.colum-5  { width: 41.6666%; }
+.colum.colum-6  { width: 50%; }
+.colum.colum-7  { width: 58.3333%; }
+.colum.colum-8  { width: 66.6666%; }
+.colum.colum-9  { width: 75%; }
+.colum.colum-10 { width: 83.3333%; }
+.colum.colum-11 { width: 91.6666%; }
+.colum.colum-12 { width: 100%; }
+
+section,
+header,
+footer {
+  padding: 4em 0;
+}
+
+section {
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+section .container {
+  background-color: rgba(255, 255, 255, 0.7);
+}
+
+#main {
+  background-image: url(../img/1.jpg);
+}
+#segunda {
+  background-image: url(../img/2.jpg);
+}
+#tercera {
+  background-image: url(../img/3.jpg);
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1200px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 940px) {
+  .container {
+    max-width: 768px;
+  }
+}
+
+@media (max-width: 768px) {
+  .colum.colum-1  { width: 100%; }
+  .colum.colum-2  { width: 100%; }
+  .colum.colum-3  { width: 100%; }
+  .colum.colum-4  { width: 100%; }
+  .colum.colum-5  { width: 100%; }
+  .colum.colum-6  { width: 100%; }
+  .colum.colum-7  { width: 100%; }
+  .colum.colum-8  { width: 100%; }
+  .colum.colum-9  { width: 100%; }
+  .colum.colum-10 { width: 100%; }
+  .colum.colum-11 { width: 100%; }
+  .colum.colum-12 { width: 100%; }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

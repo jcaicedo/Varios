@@ -1,0 +1,200 @@
+#hero {
+
+    background: rgba(0,0,0,0,4);
+    width: 100%;
+    height: 205 px;
+    border-top: 1px solid #cecece;
+
+}
+#flexible {
+    padding: 35px;
+    height: 257px;
+    background-attachment: fixed;
+    background-position: 50% 50%;
+    background: url(../img/img1.JPG);
+    background-origin: border-box;
+    background-repeat: no-repeat;
+    background-size:cover;
+    width: 100%;
+
+}
+
+#eco1 {
+    height: 885px;
+    background-attachment: fixed;
+    background-position: 50% 4px;
+    
+}
+
+
+
+.experiencie-section {
+    width: 100%;
+    position:relative;
+    min-height: 700px;
+}
+
+#flexible2{
+
+       background: url('https://s3.amazonaws.com/krashassets/img/bg/flexible.jpg') no-repeat center center / cover transparent;
+    text-align: center;
+}
+
+
+
+#nav_menu {
+    margin: 0;
+}
+
+
+
+
+
+h2 {
+    
+}
+
+#portada {
+    text-align: center;
+    color:white;
+    text-decoration:overline;
+    font-family: 'Poly', serif;
+    
+}
+
+
+
+.logo_portada {
+        
+    align-content: center;
+    height: auto;
+    max-width:800px;
+}
+
+.EcoA {
+    color: limegreen;
+    border-color: black;
+    border-bottom:
+
+
+}
+
+.v{
+    color: yellow;
+}
+.e{
+    color: royalblue;
+
+}
+.n{
+    color: red;
+    
+}
+
+#style-texto-intro {
+    margin-top: 1em;
+    text-align: center;
+    font-style: italic;
+    font-family:fantasy;
+    font-size: 1.2em;
+    color: aliceblue;
+    
+   
+}
+
+#wrapperindex {
+    width: 100%;
+    max-width: 1000px;
+}
+
+
+.callout_box img{
+
+    margin-bottom: 5px;
+    max-width: 100%;
+
+}
+.img_eco {
+    height: auto;
+    max-width: 100%;
+}
+
+calloutblock {
+        display: block;
+}
+
+.light {
+    color: #4f5962;
+    background-color: rgba(176,186,191,.1);
+    border-bottom-style: solid;
+    border-bottom-color: #dadfe1;
+    border-bottom-width: 1px;
+}
+
+.border{
+
+    padding: 15px;
+}
+
+.cushion {
+    padding: 40px 0px;
+}
+
+.light
+.inner-border{
+
+    border: solid 1px rgba(176, 186, 191, .25);
+
+}
+
+.row {
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.content {
+    width: 100%;
+    clear: both;
+    display: block;
+}
+
+.secondaryBd {
+
+    background-color: black;
+    color: #404040;
+
+}
+
+.innerContent {
+    max-width: 1452px;
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.textModule {
+    clear: both;
+    display: inline-block;
+    padding: 0 120px 52px;
+}
+
+
+
+
+
+.fondo-color {
+    padding: 1%;
+    background-color: #434A54;
+}
+
+.img-responsive {
+    display: block;
+    height: auto;
+    max-width: 100%;
+}
+
+
+
+#tipo_letra{
+    font-family: 'Poly', serif;
+}

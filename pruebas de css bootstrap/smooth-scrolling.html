@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Ejmplo smooth-scrolling</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/smooth-scroolling.css">
+
+
+</head>
+
+<body>
+
+
+    <!--Menu dropdown-->
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navar-toggle" data-toggle="collapse" data-target="#myNavbar">
+
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+
+
+                </button>
+                <a href="#" class="navbar-brand">EcoAventura Sin Limite</a>
+
+
+            </div>
+
+            <div>
+                <div class="collapse navbar-collapse" id="myNavbar">
+
+                    <ul class="nav navbar-nav">
+                        <li><a href="#section1">Section 1</a></li>
+                        <li><a href="#section2">Section 2</a></li>
+                        <li><a href="#section3">Section 3</a></li>
+                        <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Section 4 <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#section41">Section 4-1</a></li>
+                                <li><a href="#section42">Section 4-2</a></li>
+                            </ul>
+
+
+
+                        </li>
+
+
+                    </ul>
+                </div>
+            </div>
+
+
+        </div>
+    </nav>
+
+<div class="container-fluid" id="section1">
+    <h1>Section 1</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque, perferendis!</p>
+</div>
+
+
+<div class="container-fluid" id="section2">
+    <h1>Section 2</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur, fugit.</p>
+    
+</div>   
+<div class="container-fluid" id="section3">
+    <h1>Section 3</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, fugit.</p>
+</div>   
+<div class="container-fluid" id="section41">
+    <h1>Section 4 submenu 1</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum, libero?</p>
+    
+    
+</div>
+<div class="container-fluid" id="section42">
+    <h1>Section 4 submenu 2</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium, quas.</p>
+</div>  
+   
+   
+
+   
+    <!--    Code Script-->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script src="js/smooth-scrolling.js"></script>
+</body>
+
+</html>

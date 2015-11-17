@@ -1,0 +1,70 @@
+/*
+Definicion basica de una regla css
+
+selector {
+  propiedad: valor;
+  propiedad2: valor;
+}
+*/
+
+h1 {
+  color: #1f61af;
+}
+
+h3 {
+  color: #ce2828;
+}
+
+.texto-verde {
+  color: #18a018;
+}
+
+p.texto-verde {
+  font-size: 10px;
+}
+
+.centrado {
+  text-align: center;
+}
+.amarillo {
+  color: yellow;
+}
+.volador {
+  font-size: 20px;
+}
+
+.centrado.amarillo.volador {
+  background-color: black;
+}
+
+h3, p, a {
+  text-decoration: underline;
+}
+
+ul li a {
+  color: #c70ece;
+}
+
+#archive {
+  background-color: black;
+  color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+  

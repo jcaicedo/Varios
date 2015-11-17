@@ -1,0 +1,87 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.row {
+  max-width: 940px;
+  padding: 0 1em;
+  margin: 0 auto;
+}
+
+.row .row {
+  padding: 0;
+  margin-left: -1em;
+  margin-right: -1em;
+} 
+
+.flex {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;  
+  /* Direction and Wrap*/
+  flex: row wrap;
+  justify-content: space-between;
+  align-items: strech;
+  align-content: flex-start;
+}
+
+.flex.row:before,
+.flex.row:after {
+  display: none;
+}
+
+.row:before,
+.row:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.colum {
+  float: left;
+  box-sizing: border-box;
+  padding: 0 1em;
+}
+
+.colum.colum-1  { width: 8.3333%; }
+.colum.colum-2  { width: 16.6666%; }
+.colum.colum-3  { width: 25%; }
+.colum.colum-4  { width: 33.3333%; }
+.colum.colum-5  { width: 41.6666%; }
+.colum.colum-6  { width: 50%; }
+.colum.colum-7  { width: 58.3333%; }
+.colum.colum-8  { width: 66.6666%; }
+.colum.colum-9  { width: 75%; }
+.colum.colum-10 { width: 83.3333%; }
+.colum.colum-11 { width: 91.6666%; }
+.colum.colum-12 { width: 100%; }
+
+@media (min-width: 1200px) {
+  .row {
+    max-width: 1200px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 940px) {
+  .row {
+    max-width: 768px;
+  }
+}
+
+@media (max-width: 768px) {
+  .colum.colum-1  { width: 100%; }
+  .colum.colum-2  { width: 100%; }
+  .colum.colum-3  { width: 100%; }
+  .colum.colum-4  { width: 100%; }
+  .colum.colum-5  { width: 100%; }
+  .colum.colum-6  { width: 100%; }
+  .colum.colum-7  { width: 100%; }
+  .colum.colum-8  { width: 100%; }
+  .colum.colum-9  { width: 100%; }
+  .colum.colum-10 { width: 100%; }
+  .colum.colum-11 { width: 100%; }
+  .colum.colum-12 { width: 100%; }
+}

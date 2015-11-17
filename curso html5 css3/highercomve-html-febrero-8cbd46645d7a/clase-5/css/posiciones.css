@@ -1,0 +1,40 @@
+
+.caja-fixed {
+  background-color: aqua;
+  width: 500px;
+  height: 500px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  margin-left: -250px;
+  margin-top: -250px;
+  z-index: 2;
+}
+
+.caja-relativa {
+  width: 160px;
+  height: 80px;
+  background-color: chartreuse;
+  position: relative;
+  top: 4em;
+  right: -10em;
+  z-index: 1;
+}
+
+.caja {
+  width: 100px;
+  height: 100px;
+  background-color: coral;
+}
+
+
+
+
+
+
+
+.caja-absoluta {
+  position: absolute;
+  top: 0;
+  right: 0;
+}

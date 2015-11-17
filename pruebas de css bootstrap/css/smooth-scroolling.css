@@ -1,0 +1,15 @@
+body{
+
+position: relative;
+
+}
+
+#section1 {padding-top: 50px;height: 500px;color: black; background-color: brown}
+
+#section2 {padding-top: 50px;height: 500px;color: black; background-color:darkgreen}
+
+#section3 {padding-top: 50px;height: 500px;color: black; background-color:darkviolet}
+
+#section41 {padding-top: 50px;height: 500px;color: black; background-color:forestgreen}
+
+#section42 {padding-top: 50px;height: 500px;color: black; background-color:cadetblue}
